@@ -5,6 +5,7 @@
 ```
 
 ##如何使用
+
 配置
 
 ```
@@ -20,4 +21,5 @@
 [GJRouter gotoPage:@"https://www.baidu.com"];//跳转至某个H5页面
 ```
 ##反馈
+
 邮箱：guojunxu@163.com
