@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069E2D791FDF82B9000AA3ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D781FDF82B9000AA3ED /* AppDelegate.m */; };
+		069E2D7C1FDF82B9000AA3ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D7B1FDF82B9000AA3ED /* ViewController.m */; };
+		069E2D811FDF82B9000AA3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069E2D801FDF82B9000AA3ED /* Assets.xcassets */; };
+		069E2D871FDF82B9000AA3ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D861FDF82B9000AA3ED /* main.m */; };
+		069E2D8F1FDF8310000AA3ED /* GJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D8E1FDF8310000AA3ED /* GJRouter.m */; };
+		069E2D921FDF85B8000AA3ED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D911FDF85B8000AA3ED /* SecondViewController.m */; };
+		069E2D951FDFA537000AA3ED /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D941FDFA537000AA3ED /* ThirdViewController.m */; };
+		069E2D981FDFB180000AA3ED /* GJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E2D971FDFB180000AA3ED /* GJWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		069E2D741FDF82B9000AA3ED /* RouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069E2D771FDF82B9000AA3ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		069E2D781FDF82B9000AA3ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		069E2D7A1FDF82B9000AA3ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		069E2D7B1FDF82B9000AA3ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		069E2D801FDF82B9000AA3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		069E2D851FDF82B9000AA3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069E2D861FDF82B9000AA3ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069E2D8D1FDF8310000AA3ED /* GJRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJRouter.h; sourceTree = "<group>"; };
+		069E2D8E1FDF8310000AA3ED /* GJRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJRouter.m; sourceTree = "<group>"; };
+		069E2D901FDF85B8000AA3ED /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		069E2D911FDF85B8000AA3ED /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		069E2D931FDFA537000AA3ED /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		069E2D941FDFA537000AA3ED /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		069E2D961FDFB180000AA3ED /* GJWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJWebViewController.h; sourceTree = "<group>"; };
+		069E2D971FDFB180000AA3ED /* GJWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069E2D711FDF82B9000AA3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069E2D6B1FDF82B9000AA3ED = {
+			isa = PBXGroup;
+			children = (
+				069E2D761FDF82B9000AA3ED /* RouterDemo */,
+				069E2D751FDF82B9000AA3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		069E2D751FDF82B9000AA3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069E2D741FDF82B9000AA3ED /* RouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069E2D761FDF82B9000AA3ED /* RouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				069E2D771FDF82B9000AA3ED /* AppDelegate.h */,
+				069E2D781FDF82B9000AA3ED /* AppDelegate.m */,
+				069E2D7A1FDF82B9000AA3ED /* ViewController.h */,
+				069E2D7B1FDF82B9000AA3ED /* ViewController.m */,
+				069E2D901FDF85B8000AA3ED /* SecondViewController.h */,
+				069E2D911FDF85B8000AA3ED /* SecondViewController.m */,
+				069E2D931FDFA537000AA3ED /* ThirdViewController.h */,
+				069E2D941FDFA537000AA3ED /* ThirdViewController.m */,
+				069E2D961FDFB180000AA3ED /* GJWebViewController.h */,
+				069E2D971FDFB180000AA3ED /* GJWebViewController.m */,
+				069E2D8D1FDF8310000AA3ED /* GJRouter.h */,
+				069E2D8E1FDF8310000AA3ED /* GJRouter.m */,
+				069E2D801FDF82B9000AA3ED /* Assets.xcassets */,
+				069E2D851FDF82B9000AA3ED /* Info.plist */,
+				069E2D861FDF82B9000AA3ED /* main.m */,
+			);
+			path = RouterDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069E2D731FDF82B9000AA3ED /* RouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069E2D8A1FDF82B9000AA3ED /* Build configuration list for PBXNativeTarget "RouterDemo" */;
+			buildPhases = (
+				069E2D701FDF82B9000AA3ED /* Sources */,
+				069E2D711FDF82B9000AA3ED /* Frameworks */,
+				069E2D721FDF82B9000AA3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterDemo;
+			productName = RouterDemo;
+			productReference = 069E2D741FDF82B9000AA3ED /* RouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069E2D6C1FDF82B9000AA3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = guojunxu;
+				TargetAttributes = {
+					069E2D731FDF82B9000AA3ED = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 069E2D6F1FDF82B9000AA3ED /* Build configuration list for PBXProject "RouterDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 069E2D6B1FDF82B9000AA3ED;
+			productRefGroup = 069E2D751FDF82B9000AA3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069E2D731FDF82B9000AA3ED /* RouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069E2D721FDF82B9000AA3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069E2D811FDF82B9000AA3ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069E2D701FDF82B9000AA3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069E2D921FDF85B8000AA3ED /* SecondViewController.m in Sources */,
+				069E2D7C1FDF82B9000AA3ED /* ViewController.m in Sources */,
+				069E2D951FDFA537000AA3ED /* ThirdViewController.m in Sources */,
+				069E2D871FDF82B9000AA3ED /* main.m in Sources */,
+				069E2D791FDF82B9000AA3ED /* AppDelegate.m in Sources */,
+				069E2D981FDFB180000AA3ED /* GJWebViewController.m in Sources */,
+				069E2D8F1FDF8310000AA3ED /* GJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		069E2D881FDF82B9000AA3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		069E2D891FDF82B9000AA3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		069E2D8B1FDF82B9000AA3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R7C3KBZS2;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guojun.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		069E2D8C1FDF82B9000AA3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R7C3KBZS2;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guojun.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069E2D6F1FDF82B9000AA3ED /* Build configuration list for PBXProject "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069E2D881FDF82B9000AA3ED /* Debug */,
+				069E2D891FDF82B9000AA3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069E2D8A1FDF82B9000AA3ED /* Build configuration list for PBXNativeTarget "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069E2D8B1FDF82B9000AA3ED /* Debug */,
+				069E2D8C1FDF82B9000AA3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069E2D6C1FDF82B9000AA3ED /* Project object */;
+}
